@@ -11,6 +11,7 @@ Submit an assignment the Career Track way!
 1. Essentials
     * `.eslintrc` 
     * `.gitignore`
+    * `.travis.yml`
     * `package.json`
     
     ```sh
@@ -18,14 +19,6 @@ Submit an assignment the Career Track way!
     ```
     
     Add `test` and `start` `script`!
-
-    * `.travis.yml`
-    
-    ```yaml
-    language: node_js
-    node_js:
-      - "8"
-    ```
     
     * `README.md`
     
@@ -34,7 +27,6 @@ Submit an assignment the Career Track way!
         * Developer
             * How to get started
             * How to use API
-    
     
 1. Repeat until done:
     * Do work
