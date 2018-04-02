@@ -27,15 +27,18 @@ describe('calculator', () => {
     });
 
     it('divide', () => {        
+        let x = 3;
+        let y = 1;
+        let expected = 3;
         try {            
-            if((calc.divide(6, 3)) == Infinity) throw 'Attempt to divide by zero (0)';            
+            if((calc.divide(x, y)) == Infinity) throw 'Attempt to divide by zero (0)';            
         }
         catch (err) {
-            console.log('Error: ', err);
+            console.log('ERROR: ', err);
         }
         finally {            
-            const quotient = calc.divide(6, 3);
-            assert.equal(quotient, 2);
+            const quotient = calc.divide(x, y);
+            assert.equal(quotient, expected);
         }
     });
 });
