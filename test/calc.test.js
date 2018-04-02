@@ -6,4 +6,9 @@ describe('calculator', () => {
         const sum = calc.add(1, 2);
         assert.equal(sum, 3);
     });
+
+    it('subtract', () => {
+        const difference = calc.subtract(5, 3);
+        assert.equal(difference, 2);
+    });
 });
