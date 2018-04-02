@@ -44,8 +44,8 @@ Submit an assignment the Career Track way!
 1. Verify that PR passes Travis CI
 1. Submit PR Url and (**These are not optional!!!**):
     1. How long did you spend on this assignment?
-    2. Describe your process of completing this assignment?
-    2. What was the hardest part and the easiest part of this assignment?
+    2. What was the hardest part of this assignment?
+    2. What was the easiest part of this assignment?
 
 ### For this assignment
 
