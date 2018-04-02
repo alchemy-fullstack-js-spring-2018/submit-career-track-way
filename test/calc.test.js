@@ -19,6 +19,6 @@ describe('calculator', () => {
 
     it('divide', () => {
         const quotient = calc.divide(4, 2);
-        assert.equal(quotient, 1);
+        assert.equal(quotient, 2);
     })
 });
