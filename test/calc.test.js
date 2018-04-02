@@ -23,11 +23,13 @@ describe('calculator', () => {
     });
 
     it('divide by 0', () => {
+        let passed = false;
         try {
             calc.divide(6, 0);
-            assert.fail('did not throw error');
+            passed = true;
         } catch (error) {
             assert.equal(error.message, 'Attempt to divide by zero (0)');
         }
+        assert.equal(passed, false, 'did not throw error');
     });
 });
