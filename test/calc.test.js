@@ -31,4 +31,13 @@ describe('calculator', () => {
             assert.equal(error.message, 'attempted to divide by zero');
         }
     });
+
+    it('dividing by zero, class example', () => {
+        try {
+            calc.divide(10, 0);
+            assert.fail('did not throw error');
+        } catch (error){
+            assert.equal(error.message, 'attempted to divide by zero');
+        }
+    });
 });
