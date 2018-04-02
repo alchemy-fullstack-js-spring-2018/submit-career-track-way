@@ -15,7 +15,10 @@ describe('calculator', () => {
         assert.equal(product, 4);
     }),
     it('divide', () => {
-        const quotient = calc.divide(4, 2);
-        assert.equal(quotient, 2);
+        try {
+            calc.divide(4, 0);  
+        } catch (error) {
+            assert.equal(error, 'Error: Attempt to divide by zero (0)'); 
+        }
     });
 });
