@@ -31,5 +31,16 @@ describe('calculator', () => {
     //     assert.equal(throwzero, 0);
     //     throw 'Attempt to divide by zero (0)';
     // });
+    it('divide by zero', () => {
+        let passed = false;
+        try {
+            calc.divide(6, 0);
+            passed = true;
+            // assert.fail('did not throw error');
+        } catch (error) {
+            assert.equal(error.message, 'Attempt to divide by zero');
+        }
+        assert.equal(!passed, false, 'did not throw error');
+    });
 
 });
