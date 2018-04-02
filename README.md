@@ -1,9 +1,11 @@
 ## Project Description
 
-## Contributors
+    Basic tests and scripts!
 
 ## Developer
+    
+    Jen Lipton
 
 #How to get started
 
-#How to use API
+    Start node
