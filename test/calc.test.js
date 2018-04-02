@@ -24,11 +24,15 @@ describe('calculator', () => {
     });
 
     it('divide', () => {
-        
+        const quotient = calc.divide(6, 2);
+        assert.equal(quotient, 3);
+    });
+
+    it('divide by 0', () => {
         try {
-            calc.divide(6, 0);            
+            calc.divide(6, 0);          
         } catch (error) {
-            assert.equal(error, 'Error: Attempt to divide by zero (0)');       
+            assert.equal(error.message, 'Attempt to divide by zero (0)');       
         }
 
     });
