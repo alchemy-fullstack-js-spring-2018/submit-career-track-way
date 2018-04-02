@@ -21,7 +21,6 @@ Submit an assignment the Career Track way!
     Add `test` and `start` `script`!
     
     * `README.md`
-    
         * Project description
         * Contributor
         * Developer
@@ -44,13 +43,13 @@ Submit an assignment the Career Track way!
 1. Verify that PR passes Travis CI
 1. Submit PR Url and (**These are not optional!!!**):
     1. How long did you spend on this assignment?
-    2. Describe your process of completing this assignment?
-    2. What was the hardest part and the easiest part of this assignment?
+    2. What was the hardest part of this assignment?
+    2. What was the easiest part of this assignment?
 
 ### For this assignment
 
 Your modularized, tested math library:
 
-1. Library with tested basic math functions: `add`, `substract`, `multiple`, `divide`
+1. Library with tested basic math functions: `add`, `subtract`, `multiple`, `divide`
 1. Review this `LAB.md` and make sure you have fulfilled each requirement
 1. `CHALLENGE`: Throw an error `throw new Error('Attempt to divide by zero (0)')` when attempting to divide by 0
