@@ -30,5 +30,6 @@ describe('calculator', () => {
         } catch (error) {
             assert.equal(error.message, 'Attempt to divide by zero (0)');
         }
+        assert.equal(passed, false, 'did not throw error');
     })
 });
