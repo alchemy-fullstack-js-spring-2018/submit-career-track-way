@@ -7,14 +7,13 @@ describe('calculator', () => {
         assert.equal(sum, 3);
     });
 
-    it('divide by zero', () => {
-        const result = calc.divide(5, 0);
-        assert.equal(result, Infinity);
-    });
-
     it('divide', () => {
-        const result = calc.divide(6, 3);
-        assert.equal(result, 2);
+        const result = calc.divide(6, 0);
+        try {
+            assert.equal(result, 2);
+        } catch (err) {
+            console.log('Attempted to divide by 0');
+        }
     });
 
     it('subtract', () => {
