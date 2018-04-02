@@ -5,6 +5,11 @@ This program is a example of using Mocha and Node to run tests of functions usin
 
 ===
 
+```js
+calc.add(3,4);
+//7
+```
+
 Coded By Ryan Manro
 
 

@@ -21,5 +21,4 @@ describe('calculator', () => {
         const quotient = calc.divide(2, 1);
         assert.equal(quotient, 2);
     });
-
 });
