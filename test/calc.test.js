@@ -23,5 +23,14 @@ describe('calculator', () => {
         const div = calc.divide(10, 5);
         assert.equal(div, 2);
     });
-    
+
+    it('throws error if attempt to divide by zero', () => {
+        try {
+            calc.divide(3, 0);
+        }
+        catch (err) {
+            assert(err.message, 'Attempt to divide by zero (0)');
+        }
+    });
+
 });
