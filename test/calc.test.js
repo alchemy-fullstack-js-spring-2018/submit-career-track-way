@@ -18,4 +18,10 @@ describe('calculator', () => {
         const product = calc.multiply(5, 2); 
         assert.equal(product, 10);
     });
+
+    it('divides numbers', () => {
+        const div = calc.divide(10, 5);
+        assert.equal(div, 2);
+    });
+    
 });
