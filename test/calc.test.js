@@ -19,5 +19,6 @@ describe('calculator', () => {
 
     calcTest('add', 1, 2, 3);
     calcTest('multiply', 2, 2, 4);
+    calcTest('divide', 6, 3, 2);
 
 });
