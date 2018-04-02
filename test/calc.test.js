@@ -27,10 +27,10 @@ describe('calculator', () => {
         try{
             calc.divide(4, 0);
             passed = true;
-            // assert.fail('did not throw error');
         } catch (error) {
             assert.equal(error.message, 'Attempt to divide by zero (0)');
         }
-        assert.equal(passed, false, 'did not throw error');
+        //need to fail fucking stupid bullshit
+        assert.equal(passed, true, 'did not throw error');
     })
 });
