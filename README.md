@@ -12,7 +12,11 @@
 
 #How to use API
 
-## calc.add( x , y);
-## calc.divide( x, y );
-## calc.multiply( x, y );
-## calc.subtract ( x, y );
+```js
+const calc = require('calc'); // from file, can also add to npm
+
+calc.add( x , y);
+calc.divide( x, y );
+calc.multiply( x, y );
+calc.subtract ( x, y );
+```
