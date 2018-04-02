@@ -24,17 +24,24 @@ describe('calculator', () => {
 
     it('multiply', () => {
 
-        const quotient = calc.multiply (3, 2);
+        const product = calc.multiply (3, 2);
 
-        assert.equal(quotient, 6);
+        assert.equal(product, 6);
 
     });
 
     it('divide', () => {
+        const quotient = calc.divide (10, 2);
+        assert.equal(quotient, 5);
+    });
 
-        const remainder = calc.divide (10, 2);
-
-        assert.equal(remainder, 5);
+    it('divide by zero', () => {
+        try {
+            calc.divide (10, 0);
+            assert.fail('Function did not throw error');
+        } catch (error) {
+            assert.equal(error.message, 'Error cannot divide by 0');
+        }
 
     });
 
