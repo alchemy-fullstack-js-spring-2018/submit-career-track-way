@@ -35,7 +35,7 @@ describe('calculator', () => {
             passed = true;
             assert.fail('failed to throw error');
         } catch (error) {
-            assert.equal(error.message, 'failed to divide by zero');     
+            assert.equal(error.message, 'test fails division by 0');     
         }
         assert.equal(passed, false, 'failed to throw error');
     });
