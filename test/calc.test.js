@@ -23,6 +23,7 @@ describe('calculator', () => {
     })
 
     it('divide by 0', () => {
+        let passed = false;
         try{
             calc.divide(4, 0);
             passed = true;
