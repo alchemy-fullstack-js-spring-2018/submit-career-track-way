@@ -12,7 +12,20 @@ Each of the four functions (add, subtract, multiply, divide) takes two numerical
 
 ## How to Use API:
 
-The functions are exported from calc.js, which can be imported and functions can be called by `calc.add(a, b)`, for example. 
+The functions are exported from calc.js. After import, functions can be called by `calc.add(a, b)` for example. 
+
+```js
+const calc = require('calc') //if on npm
+calc.add(1,2);
+// 3
+calc.subtract(5, 2);
+// 3
+calc.multiply(3, 1);
+// 3
+calc.divide(6, 2);
+// 3
+
+```
 
 
 
