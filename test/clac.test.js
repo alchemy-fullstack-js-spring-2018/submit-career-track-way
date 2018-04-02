@@ -18,7 +18,7 @@ describe('calculator', () => {
         try {
             calc.divide(4, 0);  
         } catch (error) {
-            assert.equal(error, 'Error: Attempt to divide by zero (0)'); 
+            assert.equal(error.message, 'Attempt to divide by zero (0)'); 
         }
     });
 });
