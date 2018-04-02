@@ -15,4 +15,9 @@ describe('calculator', () => {
         // parameters: actual, expected
         assert.equal(sum, 3);
     });
+
+    it('subtract', () => {
+        const difference = calc.subtract(3, 1);
+        assert.equal(difference, 2);
+    });
 });
