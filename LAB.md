@@ -51,6 +51,6 @@ Submit an assignment the Career Track way!
 
 Your modularized, tested math library:
 
-1. Library with tested basic math functions: `add`, `substract`, `multiple`, `divide`
+1. Library with tested basic math functions: `add`, `subtract`, `multiple`, `divide`
 1. Review this `LAB.md` and make sure you have fulfilled each requirement
 1. `CHALLENGE`: Throw an error `throw new Error('Attempt to divide by zero (0)')` when attempting to divide by 0
