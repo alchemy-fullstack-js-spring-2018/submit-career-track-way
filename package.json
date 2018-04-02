@@ -1,0 +1,24 @@
+{
+  "name": "submit-career-track-way",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "npm run test -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/J3ffcon1/submit-career-track-way.git"
+  },
+  "author": "Jeffrey Lonergan <jrlone1990@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J3ffcon1/submit-career-track-way/issues"
+  },
+  "homepage": "https://github.com/J3ffcon1/submit-career-track-way",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "mocha": "^5.0.5"
+  }
+}
