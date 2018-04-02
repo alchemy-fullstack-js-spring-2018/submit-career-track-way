@@ -21,7 +21,6 @@ Submit an assignment the Career Track way!
     Add `test` and `start` `script`!
     
     * `README.md`
-    
         * Project description
         * Contributor
         * Developer
