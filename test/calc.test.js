@@ -23,5 +23,8 @@ describe('calculator', () => {
         assert.equal(product, 4);
     });
 
-    
+    it('divide', () => {
+        const quotient = calc.divide(6, 2);
+        assert.equal(quotient, 3);
+    });
 });
