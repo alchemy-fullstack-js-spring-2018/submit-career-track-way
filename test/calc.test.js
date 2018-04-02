@@ -12,4 +12,16 @@ describe('calculator', () => {
         // paramerters: actual, expected
         assert.equal(sum, 3);
     });
+
+    it('subtract', () => {
+        const difference = calc.subtract(6, 2);
+        assert.equal(difference, 4);
+    });
+
+    it('multiply', () => {
+        const product = calc.multiply(2, 2);
+        assert.equal(product, 4);
+    });
+
+    
 });
