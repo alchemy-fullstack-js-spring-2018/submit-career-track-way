@@ -20,4 +20,12 @@ describe('calculator', () => {
         const dividend = calc.divide(4, 2);
         assert.equal(dividend, 2);
     });
+    it('divide by zero', () => {
+        try {
+            calc.divide(3, 0);
+            assert.fail('did not throw error');
+        } catch (err) {
+            assert.equal(err.message, 'Attempt to divide by zero (0)');
+        }
+    });
 });
