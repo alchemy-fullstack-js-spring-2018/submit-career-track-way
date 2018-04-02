@@ -11,4 +11,19 @@ describe('calculator', () => {
         const result = calc.divide(5, 0);
         assert.equal(result, Infinity);
     });
+
+    it('divide', () => {
+        const result = calc.divide(6, 3);
+        assert.equal(result, 2);
+    });
+
+    it('subtract', () => {
+        const result = calc.subtract(6, 3);
+        assert.equal(result, 3);
+    });
+
+    it('multiply', () => {
+        const result = calc.multiply(6, 3);
+        assert.equal(result, 18);
+    });
 });
