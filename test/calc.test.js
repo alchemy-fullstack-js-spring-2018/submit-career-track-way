@@ -21,4 +21,9 @@ describe('calculator', () => {
         const quotient = calc.divide(6, 2);
         assert.equal(quotient, 3);
     });
+
+    it('divide by 0', () => {
+        const quotient = calc.divide(6, 0);
+        assert.equal(quotient, 'Error: Attempt to divide by zero (0)');
+    });
 });
