@@ -26,5 +26,10 @@ describe('calculator', () => {
         const divide = calc.divide(20, 4);
         assert.equal(divide, 5);
     });
+    // it('throwzero', () => {
+    //     const throwzero = calc.throwzero(2, 0);
+    //     assert.equal(throwzero, 0);
+    //     throw 'Attempt to divide by zero (0)';
+    // });
 
 });
