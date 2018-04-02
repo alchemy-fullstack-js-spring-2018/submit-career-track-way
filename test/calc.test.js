@@ -21,4 +21,13 @@ describe('calculator', () => {
         const quotient = calc.divide(4, 2);
         assert.equal(quotient, 2);
     })
+
+    it('divide by 0', () => {
+        try{
+            calc.divide(4, 0);
+            assert.fail('did not throw error');
+        } catch (error) {
+            assert.equal(error.message, 'Attempt to divide by zero (0)');
+        }
+    })
 });
