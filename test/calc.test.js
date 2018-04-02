@@ -26,8 +26,16 @@ describe('calculator', () => {
         assert.equal(product, 3);
     });
 
-    it('divide', () => {
-        const quotient = calc.divide(6, 3);
-        assert.equal(quotient, 2);
+    it('divide', () => {        
+        try {            
+            if((calc.divide(6, 3)) == Infinity) throw 'Attempt to divide by zero (0)';            
+        }
+        catch (err) {
+            console.log('Error: ', err);
+        }
+        finally {            
+            const quotient = calc.divide(6, 3);
+            assert.equal(quotient, 2);
+        }
     });
 });
