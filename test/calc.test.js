@@ -22,5 +22,9 @@ describe('calculator', () => {
         const multiply = calc.multiply(5, 4);
         assert.equal(multiply, 20);
     });
+    it('divide', () => {
+        const divide = calc.divide(20, 4);
+        assert.equal(divide, 5);
+    });
 
 });
