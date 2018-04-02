@@ -11,4 +11,9 @@ describe('calculator', () => {
         const difference = calc.subtract(5, 3);
         assert.equal(difference, 2);
     });
+
+    it('multiply', () => {
+        const product = calc.multiply(3, 2);
+        assert.equal(product, 6);
+    });
 });
