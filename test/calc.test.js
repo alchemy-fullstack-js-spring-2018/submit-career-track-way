@@ -21,4 +21,9 @@ describe('calculator', () => {
         const quotient = calc.divide(2, 1);
         assert.equal(quotient, 2);
     });
+
+    it('divide by zero', () => {
+        const quotient = calc.divide(2, 0);
+        assert.equal(quotient, 'You cannot divide by zero!');
+    });
 });
