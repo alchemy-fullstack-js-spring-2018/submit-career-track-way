@@ -1,4 +1,0 @@
-# blacklist
-branches:
-  except:
-    - master
